@@ -2938,7 +2938,7 @@
     fadeDuration: 600,
     fitImagesInViewport: true,
     imageFadeDuration: 600,
-    // maxWidth: 800,
+    //  maxWidth: 800,
     // maxHeight: 600,
     positionFromTop: 50,
     resizeDuration: 700,

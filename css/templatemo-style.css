@@ -622,27 +622,27 @@ nav .active-section span {
   transition: all 0.5s;
 }
 
-#featured .owl-nav span:hover {
+.catalog .owl-nav span:hover {
   background-color: #45489a;
   color: #fff;
 }
 
-#featured .item {
+.catalog .item {
   text-align: left;
   position: relative;
   z-index: 10;
 }
 
-#featured .item .image {
+.catalog .item .image {
   position: relative;
 }
 
-#featured .item .image img {
+.catalog .item .image img {
   width: 100%;
   overflow: hidden;
 }
 
-#featured .item .image .featured-button a {
+.catalog .item .image .featured-button a {
   font-size: 13px;
   font-weight: 600;
   color: #fff;
@@ -662,19 +662,19 @@ nav .active-section span {
   opacity: 0;
 }
 
-#featured .item:hover .featured-button a {
+.catalog .item:hover .featured-button a {
   bottom: 0;
   opacity: 1;
 }
 
-#featured .item .text-content {
+.catalog .item .text-content {
   padding-top: 20px;
   background-color: #fff;
   position: relative;
   z-index: 10;
 }
 
-#featured .item .text-content h4 {
+.catalog .item .text-content h4 {
   margin-top: 0px;
   margin-bottom: 5px;
   font-size: 21px;
@@ -683,7 +683,7 @@ nav .active-section span {
   letter-spacing: 0.5px;
 }
 
-#featured .item .text-content span {
+.catalog .item .text-content span {
   display: inline-block;
   font-size: 15px;
   font-weight: 600;
