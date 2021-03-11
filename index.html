@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="css/light-box.css">
     <link rel="stylesheet" href="css/owl-carousel.css">
     <link rel="stylesheet" href="css/templatemo-style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.1/css/all.min.css"
+        crossOrigin="anonymous" /> -->
+    <script src="https://kit.fontawesome.com/bc0a0587ed.js" crossorigin="anonymous"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 
@@ -50,7 +53,8 @@
                     <li><a href="#data-arch">Datos</a></li>
                     <li><a href="#app-arch">Applicación</a></li>
                     <li><a href="#tech-arch">Tecnología</a></li>
-                    <li><a href="#summary">Resumen</a></li>
+                    <li><a href="#revamped">Arquitectura Renovada</a></li>
+                    <li><a href="#appendices">Anexos</a></li>
                 </ul>
             </nav>
         </div>
@@ -112,21 +116,47 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#summary">
+                    <a href="#revamped">
                         <span class="rect"></span>
                         <span class="circle"></span>
-                        Resumen
+                        Arquitectura Renovada
+                    </a>
+                </li>
+                <li>
+                    <a href="#appendices">
+                        <span class="rect"></span>
+                        <span class="circle"></span>
+                        Anexos
                     </a>
                 </li>
             </ul>
         </nav>
         <ul class="social-icons">
             <!-- TODO: Change icons for repo links-->
-            <li><a href="#"><i class="fa fa-google"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="#"><i class="fa fa-rss"></i></a></li>
-            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+            <li><a target="_blank" href="#">
+                    <i class="fab fa-figma"></i>
+                </a>
+            </li>
+            <li>
+                <a target="_blank"
+                    href="https://lucid.app/folder/invitations/accept/648a41ad-1612-450a-9365-5ca0c7e0bf07">
+                    <i class="fas fa-project-diagram"></i>
+                </a>
+            </li>
+            <li>
+                <a target="_blank"
+                    href="https://drive.google.com/drive/folders/19_A1KOYM2wnsZRhrUk3CCGbPsIbg5BdI?usp=sharing">
+                    <i class="fab fa-google-drive"></i>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="https://github.com/pescoboza/portafolio-arquitectura-ventronic">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+
+
+
         </ul>
     </div>
 
@@ -253,17 +283,25 @@
     <div class="page-content">
 
         <!-- Preliminary -->
-        <section id="arch-vision" class="content-section section">
+        <section id="prelim-phase" class="content-section section">
             <div class="section-heading">
-                <h1><em>Visión</em><br>de Arquitectura</h1>
-                <!-- <p>Establecer alcance de interación.
-            <br>sed pellentesque neque malesuada vitae.
-        </p> -->
+                <h1>Fase<br><em>Preliminar</em></h1>
             </div>
-
-
             <div class="owl-carousel owl-theme catalog">
 
+                <!-- Principios -->
+                <div class="item">
+                    <div class="image">
+                        <a href="img/artifacts/Principios.jpg" data-lightbox="image"><img
+                                src="img/artifacts/Principios.jpg" alt=""></a>
+                    </div>
+                    <div class="text-content">
+                        <h4>Catálogo de Principios</h4>
+                        <p>Lista de principios preliminares de<br>
+                            arquitectura empresarial</p>
+                    </div>
+                </div>
+                <!-- // Principios -->
 
                 <!-- Business Canvas -->
                 <div class="item">
@@ -278,18 +316,6 @@
                 </div>
                 <!-- // Business Canvas -->
 
-                <!-- Value Chain Diagram -->
-                <div class="item">
-                    <div class="image">
-                        <a href="img/artifacts/DiagramaCadenaValor.svg" data-lightbox="image"><img
-                                src="img/artifacts/DiagramaCadenaValor.svg" alt=""></a>
-                    </div>
-                    <div class="text-content">
-                        <h4>Diagrama de Cadena de Valor</h4>
-                        <p>Actividades primarias y secundarias para operación empresarial</p>
-                    </div>
-                </div>
-                <!-- // Value Chain Diagram -->
 
                 <!-- SWOT Analysis -->
                 <div class="item">
@@ -305,18 +331,6 @@
                 <!-- // SWOT Analysis -->
 
 
-                <!-- Solucion Concept -->
-                <div class="item">
-                    <div class="image">
-                        <a href="img/artifacts/DiagramaConceptoSolucionAsIs.svg" data-lightbox="image"><img
-                                src="img/artifacts/DiagramaConceptoSolucionAsIs.svg" alt=""></a>
-                    </div>
-                    <div class="text-content">
-                        <h4>Diagrama de Concepto de Solución</h4>
-                        <p>Esquema de solución de alta abstracción.</p>
-                    </div>
-                </div>
-                <!-- // Solucion Concept -->
 
             </div>
         </section>
@@ -328,41 +342,54 @@
         <section id="arch-vision" class="content-section section">
             <div class="section-heading">
                 <h1><em>Visión</em><br>de Arquitectura</h1>
-                <!-- <p>Establecer alcance de interación.
-                    <br>sed pellentesque neque malesuada vitae.
-                </p> -->
             </div>
 
 
             <div class="owl-carousel owl-theme catalog">
 
+                <!-- Stakeholder Map Matrix -->
+                <div class="item">
+                    <div class="image">
+                        <a href="img/artifacts/MapaMatrizStakeholders.jpg" data-lightbox="image"><img
+                                src="img/artifacts/MapaMatrizStakeholders.jpg" alt=""></a>
+                    </div>
+                    <div class="text-content">
+                        <h4>Mapa Matriz de Stakeholders</h4>
+                        <p>Matriz de descripción de stakeholders, identificando <br>
+                            clase y artefactos relevantes
+                        </p>
+                    </div>
+                </div>
+                <!-- // Stakeholder Map Matrix -->
+
+
                 <!-- Value Chain Diagram -->
                 <div class="item">
                     <div class="image">
-                        <a href="img/artifacts/ArchitectureVision/ValueChainDiagram.svg" data-lightbox="image"><img
-                                src="img/artifacts/ArchitectureVision/ValueChainDiagram.svg" alt=""></a>
+                        <a href="img/artifacts/DiagramaCadenaValor.svg" data-lightbox="image"><img
+                                src="img/artifacts/DiagramaCadenaValor.svg" alt=""></a>
                     </div>
                     <div class="text-content">
                         <h4>Diagrama de Cadena de Valor</h4>
-                        <!-- <span>Lorem, ipsum dolor.</span> -->
-                        <p>Actividades primarias y secundarias para operación empresarial</p>
+                        <p>Actividades primarias y secundarias <br>
+                            para operación empresarial</p>
                     </div>
                 </div>
                 <!-- // Value Chain Diagram -->
 
-                <!-- SWOT Analysis -->
+
+                <!-- Solution Concept -->
                 <div class="item">
                     <div class="image">
-                        <a href="img/artifacts/ArchitectureVision/SWOTAnalysis.svg" data-lightbox="image"><img
-                                src="img/artifacts/ArchitectureVision/SWOTAnalysis.svg" alt=""></a>
+                        <a href="img/artifacts/DiagramaConceptoSolucionAsIs.svg" data-lightbox="image"><img
+                                src="img/artifacts/DiagramaConceptoSolucionAsIs.svg" alt=""></a>
                     </div>
                     <div class="text-content">
-                        <h4>Análisis FODA</h4>
-                        <p>Vista general de fortalezas, oportunidades, debilidades y amenazas.</p>
+                        <h4>Diagrama de Concepto de Solución</h4>
+                        <p>Esquema de solución de alta abstracción.</p>
                     </div>
                 </div>
-                <!-- // SWOT Analysis -->
-
+                <!-- // Solution Concept -->
             </div>
         </section>
         <!-- // Vision -->
@@ -379,71 +406,64 @@
 
             <div class="owl-carousel owl-theme catalog">
 
-                <!-- Business Canvas -->
+                <!-- Organigrama -->
                 <div class="item">
                     <div class="image">
-                        <a href="img/artifacts/BusinessArchitecture/BusinessCanvas.svg" data-lightbox="image"><img
-                                src="img/artifacts/BusinessArchitecture/BusinessCanvas.svg" alt=""></a>
-                    </div>
-                    <div class="text-content">
-                        <h4>Canvas de negocio</h4>
-                        <p>Análisis de modelo de negocio.</p>
-                    </div>
-                </div>
-                <!-- // Business Canvas -->
-
-                <!-- Business Organization Chart -->
-                <div class="item">
-                    <div class="image">
-                        <a href="img/artifacts/BusinessArchitecture/BusinessOrganizationChart.svg"
-                            data-lightbox="image"><img
-                                src="img/artifacts/BusinessArchitecture/BusinessOrganizationChart.svg" alt=""></a>
+                        <a href="img/artifacts/OrganigramaEmpresarial.svg" data-lightbox="image"><img
+                                src="img/artifacts/OrganigramaEmpresarial.svg" alt=""></a>
                     </div>
                     <div class="text-content">
                         <h4>Organigrama Empresarial</h4>
-                        <p>Estructura de unidades de orgazación empresariales.</p>
+                        <p>Diagrama de estructura organizacional de actores</p>
                     </div>
                 </div>
-                <!-- // Business Organization Chart -->
+                <!-- // Organigrama -->
 
-                <!-- Business Footprint Diagram -->
+
+                <!-- Business Functions As Is -->
                 <div class="item">
                     <div class="image">
-                        <a href="img/artifacts/BusinessArchitecture/BusinessFootprintDiagram.svg"
-                            data-lightbox="image"><img
-                                src="img/artifacts/BusinessArchitecture/BusinessFootprintDiagram.svg" alt=""></a>
+                        <a href="img/artifacts/FuncionesNegocioAsIs.jpg" data-lightbox="image"><img
+                                src="img/artifacts/FuncionesNegocioAsIs.jpg" alt=""></a>
+                    </div>
+                    <div class="text-content">
+                        <h4>Catálogo de Funciones de Negocio</h4>
+                        <p>Lista de funcionalidades de negocio desarrolladas por
+                            <br>unidades organizacionales
+                        </p>
+                    </div>
+                </div>
+                <!-- // Business Functions As Is -->
+
+
+                <!-- Business Footprint -->
+                <div class="item">
+                    <div class="image">
+                        <a href="img/artifacts/DiagramaHuellaNegocio.svg" data-lightbox="image"><img
+                                src="img/artifacts/DiagramaHuellaNegocio.svg" alt=""></a>
                     </div>
                     <div class="text-content">
                         <h4>Diagrama de Huella de Negocio</h4>
-                        <p>Estructura de servicios, funciones, unidades de organización y metas de negocio.</p>
+                        <p>Vinculación de objetivos, unidades organizacionales,<br>
+                            funciones y servicios</p>
                     </div>
                 </div>
-                <!-- // Business Footprint Diagram -->
+                <!-- // Business Footprint -->
 
-
-                <!-- <div class="item">
-                    <div class="image">
-                        <a href="img/ProcesoGarantiasAsIs.svg" data-lightbox="image"><img
-                                src="img/ProcesoGarantiasAsIs.svg" alt=""></a>
-                    </div>
-                    <div class="text-content">
-                        <h4>Proceso de garantía</h4>
-                        <span>Estado actual</span>
-                        <p>Diagrama de proceso de devolución de producto por marketplace en su estado actual.</p>
-                    </div>
-                </div>
+                <!-- Process Refunds As Is -->
                 <div class="item">
                     <div class="image">
-                        <a href="img/ProcesoGarantiasToBe.svg" data-lightbox="image"><img
-                                src="img/ProcesoGarantiasToBe.svg" alt=""></a>
+                        <a href="img/artifacts/DiagramaProcesoGarantiasAsIs.svg" data-lightbox="image"><img
+                                src="img/artifacts/DiagramaProcesoGarantiasAsIs.svg" alt=""></a>
                     </div>
                     <div class="text-content">
-                        <h4>Proceso de garantía</h4>
-                        <span>Propuesta</span>
-                        <p>Diagrama de proceso de devolución de producto por marketplace propuesto en la evaluación de
-                            arquitectura.</p>
+                        <h4>Diagrama de Proceso de Garantías</h4>
+                        <p>Declaración secuencial de proceso de negocio</p>
                     </div>
-                </div> -->
+                </div>
+                <!-- // Process Refunds As Is -->
+
+
 
             </div>
         </section>
@@ -453,26 +473,23 @@
         <section id="data-arch" class="content-section section">
             <div class="section-heading">
                 <h1>Arquitectura de<br><em>Datos</em></h1>
-                <!--   <p>Praesent pellentesque efficitur magna,
-                    <br>sed pellentesque neque malesuada vitae.
-                </p> -->
             </div>
 
             <div class="owl-carousel owl-theme catalog">
 
-                <!-- Entity Relationship Diagram -->
+                <!-- Entity Relation As Is -->
                 <div class="item">
                     <div class="image">
-                        <a href="img/artifacts/DataArchitecture/EntityRelationshipDiagram.svg"
-                            data-lightbox="image"><img
-                                src="img/artifacts/DataArchitecture/EntityRelationshipDiagram.svg" alt=""></a>
+                        <a href="img/artifacts/DiagramaEntidadRelacionAsIs.svg" data-lightbox="image"><img
+                                src="img/artifacts/DiagramaEntidadRelacionAsIs.svg" alt=""></a>
                     </div>
                     <div class="text-content">
-                        <h4>Diagrama de Entidad Relación</h4>
-                        <p>Mapeo y relaciones de entidades de datos.</p>
+                        <h4>Diagrama de Entiad Relación</h4>
+                        <p>Esquema de relaciones entre entidades de datos</p>
                     </div>
                 </div>
-                <!-- // Entity Relationship Diagram -->
+                <!-- // Entity Relation As Is -->
+
 
 
             </div>
@@ -490,18 +507,33 @@
 
             <div class="owl-carousel owl-theme catalog">
 
-                <!-- Use Case Diagram -->
+                <!-- Use Case As Is -->
                 <div class="item">
                     <div class="image">
-                        <a href="img/artifacts/ApplicationArchitecture/UseCaseDiagram.svg" data-lightbox="image"><img
-                                src="img/artifacts/ApplicationArchitecture/UseCaseDiagram.svg" alt=""></a>
+                        <a href="img/artifacts/DiagramaCasosDeUsoAsIs.svg" data-lightbox="image"><img
+                                src="img/artifacts/DiagramaCasosDeUsoAsIs.svg" alt=""></a>
                     </div>
                     <div class="text-content">
                         <h4>Diagrama de Casos de Uso</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, illum.</p>
+                        <p>Modelo de comportamiento de casos<br> de interacción de actores con aplicación</p>
                     </div>
                 </div>
-                <!-- // Use Case Diagram -->
+                <!-- // Use Case As Is -->
+
+
+                <!-- Application Portfolio As Is -->
+                <div class="item">
+                    <div class="image">
+                        <a href="img/artifacts/PortafolioAplicacionesAsIs.jpg" data-lightbox="image"><img
+                                src="img/artifacts/PortafolioAplicacionesAsIs.jpg" alt=""></a>
+                    </div>
+                    <div class="text-content">
+                        <h4>Portafolio de Aplicaciones</h4>
+                        <p>Catálogo de las aplicaciones empresariales <br>
+                            con su descripción</p>
+                    </div>
+                </div>
+                <!-- // Application Portfolio As Is -->
 
 
             </div>
@@ -512,96 +544,161 @@
         <section id="tech-arch" class="content-section section">
             <div class="section-heading">
                 <h1>Arquitectura de<br><em>Tecnología</em></h1>
-                <!--   <p>Praesent pellentesque efficitur magna,
-                    <br>sed pellentesque neque malesuada vitae.
-                </p> -->
             </div>
-
             <div class="owl-carousel owl-theme catalog">
-                <div class="item">
-                    <div class="image">
-                        <a href="img/portfolio_big_4.jpg" data-lightbox="image"><img src="img/portfolio_4.jpg"
-                                alt=""></a>
-                    </div>
-                    <div class="text-content">
-                        <h4>Artefacto 1</h4>
-                        <span>Lorem, ipsum dolor.</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, illum.</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image">
-                        <a href="img/portfolio_big_4.jpg" data-lightbox="image"><img src="img/portfolio_4.jpg"
-                                alt=""></a>
-                    </div>
-                    <div class="text-content">
-                        <h4>Artefacto 1</h4>
-                        <span>Lorem, ipsum dolor.</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, illum.</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image">
-                        <a href="img/portfolio_big_4.jpg" data-lightbox="image"><img src="img/portfolio_4.jpg"
-                                alt=""></a>
-                    </div>
-                    <div class="text-content">
-                        <h4>Artefacto 1</h4>
-                        <span>Lorem, ipsum dolor.</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, illum.</p>
-                    </div>
-                </div>
+
 
             </div>
+
+
 
         </section>
         <!-- // Tecnología -->
 
 
-        <!-- <section id="projects" class="content-section section">
+        <!-- Revamped -->
+        <section id="revamped" class="content-section section">
             <div class="section-heading">
-                <h1>Recent<br><em>Projects</em></h1>
-               <p>Praesent pellentesque efficitur magna,
-                    <br>sed pellentesque neque malesuada vitae.
-                </p> 
-    </div>
-    <div class="section-content">
-        <div class="masonry">
-            <div class="row">
+                <h1>Arquitectura <br><em>Renovada</em></h1>
+            </div>
+
+
+            <div class="owl-carousel owl-theme catalog">
+
+                <!-- Gap Analysis -->
                 <div class="item">
-                    <div class="col-md-8">
-                        <a href="img/portfolio_big_1.jpg" data-lightbox="image"><img src="img/portfolio_1.jpg"
-                                alt="image 1"></a>
+                    <div class="image">
+                        <a href="img/artifacts/AnalisisBrecha.jpg" data-lightbox="image"><img
+                                src="img/artifacts/AnalisisBrecha.jpg" alt=""></a>
+                    </div>
+                    <div class="text-content">
+                        <h4>Análisis de Brecha</h4>
+                        <p>Matriz de relaciones entre los componentes de<br>
+                            la arquitectura actual y la RENOVADO</p>
                     </div>
                 </div>
-                <div class="item second-item">
-                    <div class="col-md-4">
-                        <a href="img/portfolio_big_2.jpg" data-lightbox="image"><img src="img/portfolio_2.jpg"
-                                alt="image 2"></a>
+                <!-- // Gap Analysis -->
+
+                <!-- Concept Solution To Be -->
+                <div class="item">
+                    <div class="image">
+                        <a href="img/artifacts/DiagramaConceptoSolucionToBe.svg" data-lightbox="image"><img
+                                src="img/artifacts/DiagramaConceptoSolucionToBe.svg" alt=""></a>
+                    </div>
+                    <div class="text-content">
+                        <h4>Diagrama de Concepto de Solución - RENOVADO</h4>
+                        <p>Vista general abstracta de solución de negocio</p>
                     </div>
                 </div>
+                <!-- // Concept Solution To Be -->
+
+
+
+                <!-- Business Functions To Be -->
                 <div class="item">
-                    <div class="col-md-4">
-                        <a href="img/portfolio_big_3.jpg" data-lightbox="image"><img src="img/portfolio_3.jpg"
-                                alt="image 3"></a>
+                    <div class="image">
+                        <a href="img/artifacts/FuncionesNegocioToBe.jpg" data-lightbox="image"><img
+                                src="img/artifacts/FuncionesNegocioToBe.jpg" alt=""></a>
+                    </div>
+                    <div class="text-content">
+                        <h4>Catálogo de Funciones de Negocio - RENOVADO</h4>
+                        <p>Lista de funcionalidades de negocio desarrolladas por
+                            <br>unidades organizacionales
+                        </p>
                     </div>
                 </div>
+                <!-- // Business Functions To Be -->
+
+
+
+                <!-- Process Refunds To Be -->
                 <div class="item">
-                    <div class="col-md-4">
-                        <a href="img/portfolio_big_4.jpg" data-lightbox="image"><img src="img/portfolio_4.jpg"
-                                alt="image 4"></a>
+                    <div class="image">
+                        <a href="img/artifacts/DiagramaProcesoGarantiasToBe.svg" data-lightbox="image"><img
+                                src="img/artifacts/DiagramaProcesoGarantiasToBe.svg" alt=""></a>
+                    </div>
+                    <div class="text-content">
+                        <h4>Diagrama de Proceso de Garantías - RENOVADO</h4>
+                        <p>Declaración secuencial de proceso de negocio</p>
                     </div>
                 </div>
+                <!-- // Process Refunds To Be -->
+
+
+
+                <!-- Entity Relation To Be -->
                 <div class="item">
-                    <div class="col-md-8">
-                        <a href="img/portfolio_big_5.jpg" data-lightbox="image"><img src="img/portfolio_5.jpg"
-                                alt="image 5"></a>
+                    <div class="image">
+                        <a href="img/artifacts/DiagramaEntidadRelacionToBe.svg" data-lightbox="image"><img
+                                src="img/artifacts/DiagramaEntidadRelacionToBe.svg" alt=""></a>
+                    </div>
+                    <div class="text-content">
+                        <h4>Diagrama de Entiad Relación - RENOVADO</h4>
+                        <p>Esquema de relaciones entre entidades de datos</p>
+                    </div>
+                </div>
+                <!-- // Entity Relation To Be -->
+
+
+                <!-- Application Portfolio To Be -->
+                <div class="item">
+                    <div class="image">
+                        <a href="img/artifacts/PortafolioAplicacionesToBe.jpg" data-lightbox="image"><img
+                                src="img/artifacts/PortafolioAplicacionesToBe.jpg" alt=""></a>
+                    </div>
+                    <div class="text-content">
+                        <h4>Portafolio de Aplicaciones - RENOVADO</h4>
+                        <p>Catálogo de las aplicaciones empresariales <br>
+                            con su descripción</p>
+                    </div>
+                </div>
+                <!-- // Application Portfolio To Be -->
+
+
+
+                <!-- Use Case To Be -->
+                <div class="item">
+                    <div class="image">
+                        <a href="img/artifacts/DiagramaCasosDeUsoToBe.svg" data-lightbox="image"><img
+                                src="img/artifacts/DiagramaCasosDeUsoToBe.svg" alt=""></a>
+                    </div>
+                    <div class="text-content">
+                        <h4>Diagrama de Casos de Uso - RENOVADO</h4>
+                        <p>Modelo de comportamiento de casos<br> de interacción de actores con aplicación</p>
+                    </div>
+                </div>
+                <!-- // Use Case To Be -->
+
+            </div>
+        </section>
+        <!-- // Revamped -->
+
+
+        <!-- Anexos 
+        <section id="appendices" class="content-section section">
+            <div class="section-heading">
+                <h1><em>Anexos</em></h1>
+            </div>
+
+
+            <div class="owl-carousel owl-theme catalog">
+                <div class="item">
+                    <div class="image">
+                        <a href="img/artifacts/DiagramaCasosDeUsoToBe.svg" data-lightbox="image"><img
+                                src="img/artifacts/DiagramaCasosDeUsoToBe.svg" alt=""></a>
+                    </div>
+                    <div class="text-content">
+                        <h4>Mockup en Figma</h4>
+                        <p>Pretotipo visual de solución de software</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    </section> -->
+        </section>
+         // Anexos-->
+
+
+
+
         <section class="footer">
             <p>Evaluación de arquitecturas empresariales - Equipo 3</p>
         </section>
@@ -654,6 +751,8 @@
 
             lastScrollTop = st;
         }
+
+        $(".lb-container").click(function (e) { console.log(e) });
     </script>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
